@@ -1,0 +1,27 @@
+{
+  "name": "jakespizza",
+  "version": "1.0.0",
+  "description": "A Fictional Pizza Place",
+  "main": "pizza.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node pizza.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wascup/JakesPizza.git"
+  },
+  "author": "Wascup",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wascup/JakesPizza/issues"
+  },
+  "homepage": "https://github.com/wascup/JakesPizza#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1",
+    "passport-local-mongoose": "^7.1.2"
+  }
+}
