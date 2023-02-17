@@ -1,0 +1,39 @@
+form {
+    text-align: center;
+}
+form .text {
+    font-size: large;
+}
+form .create {
+    text-decoration: none;
+    font-size: small;
+}
+.slang {
+    font-size: 2em;
+    text-decoration: underline;
+}
+.formTextName {
+    background-color: rgb(228, 228, 228);
+    padding: 1em;
+    margin-bottom: 5px;
+    border-width: 0px;
+    border-radius: 10px;
+    height: .5em;
+}
+.formTextInput {
+    background-color: rgb(228, 228, 228);
+    padding: 1em;
+    margin-bottom: 5px;
+    border-width: 0px;
+    border-radius: 10px;
+    height: 1em;
+    width: 25%;
+}
+.formSubmitInput {
+    width: 25%;
+    padding: 1em;
+    border-width: 0;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(212, 0, 0);
+}

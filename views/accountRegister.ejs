@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register Account - Jake's Pizza</title>
+    <title>Register - Jake's Pizza</title>
+    <link rel="stylesheet" href="/css/account.css">
+    <link rel="stylesheet" href="/css/basic.css">
 </head>
 <body>
+    <header>
+        <%- include('header') %>
+    </header>
+    <form id="accountForm" action="/account/accountRegister" method="post">
+        <text class="slang">Cook up a new account</text><br>
+        <label class="text" for="firstName">First</label>
+        <input class="formTextName" type="text" name="firstName" placeholder="Pizza">
+        <label class="text" for="lastName">Last</label>
+        <input class="formTextName" type="text" name="lastName" placeholder="Doe"><br>
+        <label class="text" for="email">Email</label><br>
+        <input class="formTextInput" type="text" name="email" placeholder="FourDays@completed.com"><br>
+        <label class="text" for="password">Password</label><br>
+        <input class="formTextInput" type="password" name="password" placeholder="*******"><br>
+        <text class="create">Have an account? </text><a class="create" href="/account/login">Login</a><br>
+        <input class="formSubmitInput" type="submit" name="submitButton" value="Sign In">
+    </form>
     
 </body>
+<script src="/js/accountChecker.js"></script>
 </html>

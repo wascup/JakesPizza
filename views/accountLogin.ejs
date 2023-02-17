@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Jake's Pizza</title>
+    <title>Sign In - Jake's Pizza</title>
+    <link rel="stylesheet" href="/css/account.css">
+    <link rel="stylesheet" href="/css/basic.css">
 </head>
 <body>
+    <header>
+        <%- include('header') %>
+    </header>
+    <form action="/account/login" method="post">
+        <text class="slang">Login to Account</text><br>
+        <label class="text" for="email">Email</label><br>
+        <input class="formTextInput" type="text" name="email" placeholder="Email"><br>
+        <label class="text" for="password">Password</label><br>
+        <input class="formTextInput" type="password" name="password" placeholder="Password"><br>
+        <text class="create">Don't have an account? </text><a class="create" href="/account/register">Create Account</a><br>
+        <input class="formSubmitInput" type="submit" name="submitButton" value="Sign In">
+    </form>
     
 </body>
 </html>
